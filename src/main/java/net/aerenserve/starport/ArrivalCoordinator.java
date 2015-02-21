@@ -1,5 +1,11 @@
 package net.aerenserve.starport;
 
+import org.joda.time.DateTime;
+
+import net.aerenserve.starport.events.ArrivalDelayEvent;
+import net.aerenserve.starport.events.Event;
+import net.aerenserve.starport.events.GateChangeEvent;
+
 public class ArrivalCoordinator implements Coordinator {
 
 	@Override
@@ -13,12 +19,15 @@ public class ArrivalCoordinator implements Coordinator {
 	}
 	
 	public void delayFlight(Flight flight, int minutes) {
-		flight.getItinerary().delayArrival(minutes);
+		DateTime newTime = flight.getItinerary().getArrival();
+		Event e = StarPortSimulator.getInstance().getEventCoordinator().fireEvent(new ArrivalDelayEvent(flight, newTime.plusMinutes(minutes)));
+		if(!e.isCancelled()) flight.getItinerary().delayArrival(minutes);
 	}
 
 	@Override
 	public void changeGate(Flight flight, Gate newGate) {
-		flight.setGate(newGate);
+		Event e = StarPortSimulator.getInstance().getEventCoordinator().fireEvent(new GateChangeEvent(flight, newGate));
+		if(!e.isCancelled()) flight.setGate(newGate);	
 	}
 
 }
