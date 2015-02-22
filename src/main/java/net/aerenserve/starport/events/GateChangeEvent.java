@@ -1,7 +1,7 @@
 package net.aerenserve.starport.events;
 
 import net.aerenserve.starport.Flight;
-import net.aerenserve.starport.Gate;
+import net.aerenserve.starport.architecture.Gate;
 
 public class GateChangeEvent extends FlightEvent {
 	

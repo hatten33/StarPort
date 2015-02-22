@@ -2,7 +2,7 @@ package net.aerenserve.starport.events;
 
 import net.aerenserve.starport.Flight;
 
-public abstract class FlightEvent extends Event {
+public abstract class FlightEvent extends CancellableEvent {
 	
 	protected final Flight flight;
 	

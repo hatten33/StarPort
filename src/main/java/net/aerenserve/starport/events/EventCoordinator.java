@@ -21,15 +21,19 @@ public class EventCoordinator {
 		this.listeners.remove(listener);
 	}
 	
-	public synchronized Event fireEvent(Event event) {
+	public synchronized CancellableEvent fireEvent(CancellableEvent event) {
 		for(Listener l : this.listeners) {
 			for(Method m : l.getClass().getMethods()) {
 				if(m.isAnnotationPresent(Listener.EventHandler.class)) {
-					try {
-						m.invoke(l, event);
-					} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-						e.printStackTrace();
-					}
+					if(m.getParameterTypes().length == 1) {
+						if(m.getParameterTypes()[0].getClass().isAssignableFrom(event.getClass())) {
+							try {
+								m.invoke(l, event);
+							} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
+								e.printStackTrace();
+							}
+						} else System.out.println("PARAMATER[0] NOT EQUAL TO EVENT CLASS");
+					} else System.out.println("PARAMATER TYPES LENGTH TOO LONG!");
 				}
 			}
 		}

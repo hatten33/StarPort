@@ -1,6 +1,9 @@
 package net.aerenserve.starport;
 
-public class Flight {
+import net.aerenserve.starport.architecture.Gate;
+import net.aerenserve.starport.engine.Creatable;
+
+public class Flight implements Creatable {
 	
 	private final FlightData data;
 	private Gate gate;
