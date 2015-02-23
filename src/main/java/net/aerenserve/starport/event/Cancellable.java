@@ -1,4 +1,4 @@
-package net.aerenserve.starport.events;
+package net.aerenserve.starport.event;
 
 public interface Cancellable {
 	

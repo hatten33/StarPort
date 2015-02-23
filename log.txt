@@ -1,0 +1,4 @@
+[20:41:25] [INFO] Your game is ready. Type 'begin' to start simulation.
+ $ [20:41:31] [INFO] Spawned 2 flights!
+ $ [20:41:31] [INFO] useless message
+ $ 

@@ -1,6 +1,7 @@
-package net.aerenserve.starport.events;
+package net.aerenserve.starport.event.flight;
 
 import net.aerenserve.starport.Flight;
+import net.aerenserve.starport.event.CancellableEvent;
 
 public abstract class FlightEvent extends CancellableEvent {
 	

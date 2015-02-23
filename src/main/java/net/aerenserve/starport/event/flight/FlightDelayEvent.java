@@ -1,4 +1,4 @@
-package net.aerenserve.starport.events;
+package net.aerenserve.starport.event.flight;
 
 import net.aerenserve.starport.Flight;
 

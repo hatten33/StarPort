@@ -1,9 +1,12 @@
-package net.aerenserve.starport.events;
+package net.aerenserve.starport.event;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
+
+import net.aerenserve.starport.event.listener.EventHandler;
+import net.aerenserve.starport.event.listener.Listener;
 
 public class EventCoordinator {
 	
@@ -21,19 +24,19 @@ public class EventCoordinator {
 		this.listeners.remove(listener);
 	}
 	
-	public synchronized CancellableEvent fireEvent(CancellableEvent event) {
+	public synchronized Event fireEvent(Event event) {
 		for(Listener l : this.listeners) {
-			for(Method m : l.getClass().getMethods()) {
-				if(m.isAnnotationPresent(Listener.EventHandler.class)) {
+			for(Method m : l.getClass().getDeclaredMethods()) {
+				if(m.isAnnotationPresent(EventHandler.class)) {
 					if(m.getParameterTypes().length == 1) {
-						if(m.getParameterTypes()[0].getClass().isAssignableFrom(event.getClass())) {
+						if(m.getParameterTypes()[0].isAssignableFrom(event.getClass())) {
 							try {
 								m.invoke(l, event);
 							} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
 								e.printStackTrace();
 							}
-						} else System.out.println("PARAMATER[0] NOT EQUAL TO EVENT CLASS");
-					} else System.out.println("PARAMATER TYPES LENGTH TOO LONG!");
+						} else System.out.println("PARAMATER[0] NOT EQUAL TO EVENT CLASS!" + m.getParameterTypes()[0] + " != " + event.getClass());
+					}
 				}
 			}
 		}

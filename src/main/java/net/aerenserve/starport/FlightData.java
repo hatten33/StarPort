@@ -1,6 +1,8 @@
 package net.aerenserve.starport;
 
-public class FlightData {
+import net.aerenserve.starport.engine.factory.Creatable;
+
+public class FlightData implements Creatable {
 	
 	public final Classification classification;
 	public final int passengers;

@@ -4,40 +4,46 @@ import net.aerenserve.starport.architecture.Architecture;
 
 public class SpacePort implements StarPort {
 
+	private String name;
+
+	private DepartureCoordinator departure;
+	private ArrivalCoordinator arrival;
+
+	private Architecture architecture;
+	
+	public SpacePort(String name, DepartureCoordinator departure, ArrivalCoordinator arrival, Architecture architecture) {
+		this.name = name;
+		this.departure = departure;
+		this.arrival = arrival;
+		this.architecture = architecture;
+		
+		this.departure.setTerminal(architecture.getTerminals().get(0));
+		this.arrival.setTerminal(architecture.getTerminals().get(0));
+	}
+
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.name;
 	}
 
 	@Override
-	public String setName() {
-		// TODO Auto-generated method stub
-		return null;
+	public void setName(String newName) {
+		this.name = newName;
 	}
 
 	@Override
-	public Coordinator getDepartureCoordinator() {
-		// TODO Auto-generated method stub
-		return null;
+	public DepartureCoordinator getDepartureCoordinator() {
+		return this.departure;
 	}
 
 	@Override
-	public Coordinator getArrivalCoordinator() {
-		// TODO Auto-generated method stub
-		return null;
+	public ArrivalCoordinator getArrivalCoordinator() {
+		return this.arrival;
 	}
 
 	@Override
 	public Architecture getArchitecture() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void setArchitecture(Architecture architecture) {
-		// TODO Auto-generated method stub
-		
+		return this.architecture;
 	}
 
 }

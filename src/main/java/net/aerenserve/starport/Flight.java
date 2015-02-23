@@ -1,7 +1,7 @@
 package net.aerenserve.starport;
 
 import net.aerenserve.starport.architecture.Gate;
-import net.aerenserve.starport.engine.Creatable;
+import net.aerenserve.starport.engine.factory.Creatable;
 
 public class Flight implements Creatable {
 	
@@ -14,7 +14,6 @@ public class Flight implements Creatable {
 		this.gate = gate;
 		this.itinerary = itinerary;
 	}
-	
 	
 	public FlightData getData() {
 		return data;

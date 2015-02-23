@@ -35,6 +35,7 @@ public class Architecture {
 			for(int s = 0; s < size.gates; s++) {
 				t.addGate(new Gate(s+1, t));
 			}
+			terminals.add(t);
 		}
 		return new Architecture(terminals);
 	}

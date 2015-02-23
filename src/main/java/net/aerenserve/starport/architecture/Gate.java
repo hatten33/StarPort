@@ -1,6 +1,8 @@
 package net.aerenserve.starport.architecture;
 
 public class Gate {
+	
+	public enum State { DOCKING, ARRIVAL, DEPARTURE, LAUNCHING, OPEN, CLOSED, REPAIR }
 
 	protected final Terminal terminal;
 	protected final int id;
@@ -17,6 +19,7 @@ public class Gate {
 	}
 	
 	public String getIdentifier() {
+		if(this.id < 0) return this.terminal.getIdentifier() + "-NULL";
 		return this.terminal.getIdentifier() + this.id;
 	}
 }
