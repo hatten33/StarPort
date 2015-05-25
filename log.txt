@@ -1,4 +1,582 @@
-[20:41:25] [INFO] Your game is ready. Type 'begin' to start simulation.
- $ [20:41:31] [INFO] Spawned 2 flights!
- $ [20:41:31] [INFO] useless message
+[18:17:10] [INFO] Universe v1.0 by hatten33 loaded.
+ $ [18:17:10] [INFO] Your game is ready. Type 'begin' to start simulation.
+ $ [18:17:15] [INFO] Universe v1.0 enabled!
+ $ [18:17:25] [INFO] Gate A4 now recieving: Manticore - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A3 now recieving: Deinonychus - [YACHT]
+ $ [18:17:25] [INFO] Gate A1 now recieving: Spartacus - [FIGHTER]
+ $ [18:17:25] [INFO] Gate A2 now recieving: Infinity - [CORVETTE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Herald - [BATTLECRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Bob - [HEAVY_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Peacock - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Untouchable - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Condor - [HOSPITAL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: The Commissioner - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Defiance - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Lion - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: The Traveler - [CARGO_FRIGATE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Woodpecker - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Strike - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Shirley - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Lavanda - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Constelation - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Hope - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Battlestar - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Challenger - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Mace - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Excursionist - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Armada - [FIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Verminus - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Wolf - [CARGO_FRIGATE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Rising - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Covenant - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Majestic - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Revenant - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: The Alliance - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Dreadnought - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Invader - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Roosevelt - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Lucidity - [HOSPITAL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Prophet - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Frenzy - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Pioneer - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Hellhound - [BATTLECRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Rampart - [BATTLECRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Excalibur - [LANDING_SHIP]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Centipede - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Chronos - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Celina - [FIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Death - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Maiden Voyage - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Ravager - [LIGHT_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Serpent - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Priestess - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Kingfisher - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Constantine - [BATTLECRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Europa - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Dream - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Wisdom - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Black Viper - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Nirvana - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Avius - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Seraphim - [BATTLECRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Bravery - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Gladiator - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Calypso - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Genesis - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Unicorn - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Providence - [BATTLECRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Whirlwind - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Ramses - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Adventurer - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Calamity - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Verdant - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Cataclysm - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Relentless - [CARGO_FRIGATE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Spider - [PATROL]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: The Paladin - [SCOUT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Argonaut - [HEAVY_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Angelica - [YACHT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Marauder - [CARGO_FRIGATE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Intervention - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Elysium - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Maria - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Spectator - [HEAVY_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Hurricane - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Avadora - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Dispatcher - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Exterminator - [MISSILE_CRUISER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Manhattan - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Arthas - [EXPLORER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Glorious - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Nihilus - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Pursuit - [COURIER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Prennia - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Dagger - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: The Guardian - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Orion - [SHUTTLE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Olavia - [FREIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Trenxal - [CORVETTE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Rafaela - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Totale - [CORVETTE]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Manchester - [TRANSPORT]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Harbinger - [FIGHTER]
+ $ [18:17:25] [INFO] Gate A-NULL now recieving: Seleucia - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Cyclopse - [DESTROYER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Titan - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Nero - [COURIER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Burn - [ASSUALT_FRIGATE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Prophet - [FREIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Wolverine - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Ural - [PATROL]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: New World - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Amazon - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Alice - [COURIER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Tranquility - [SCIENCE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Suzanna - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Pelican - [LANDING_SHIP]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Isabella - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Promise - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Boa - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Hummingbird - [LIGHT_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Storm - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Hannibal - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Anastasia - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Vagabond - [COURIER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Conquistador - [EXPLORER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Tenacity - [LIGHT_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Pathfinder - [EXPLORER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Arden - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Hawk - [FREIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Pelican - [ASSUALT_FRIGATE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Hercules - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Liberator - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Resolution - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Discovery - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Facade - [MISSILE_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Phobos - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Bastion - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Triumph - [COURIER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Valkyrie - [LIGHT_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Big Boy - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Destroyer - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Nemisis - [MISSILE_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Executioner - [PATROL]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Inferno - [ASSUALT_FRIGATE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Valhalla - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Unity - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Aurora - [HEAVY_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Silent - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Lancaster - [PATROL]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Vengeance - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Avalanche - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Zephyr - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Thunder - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Firebrand - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Duke - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Black Sparrow - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Aries - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Spectator - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Euphoria - [EXPLORER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Revolution - [FREIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Nomad - [ASSUALT_FRIGATE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Adder - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Janissary - [CARGO_FRIGATE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Dark - [BATTLECRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Harbinger - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Falling Star - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Archmage - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Voyager - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Destructor - [HEAVY_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Reaver - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Warrior - [COURIER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Vanquisher - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Fudgy - [FREIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Pinnacle - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Zion - [PATROL]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Britain - [YACHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Virginia - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Avenger - [FREIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Slayer - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Terigon - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Meteor - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Aquila - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Polaris - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Zeus - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Ares - [EXPLORER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Yucatan - [BATTLECRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Memphis - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Syracuse - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Courage - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Kryptoria - [SHUTTLE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Twilight - [CORVETTE]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Khan - [LANDING_SHIP]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Saratoga - [EXPLORER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Jellyfish - [MISSILE_CRUISER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Siren - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: The Trident - [DREADNOUGHT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Evolution - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Nostradamus - [FIGHTER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Poseidon - [EXPLORER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Neptune - [TRANSPORT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Artemis - [SCOUT]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Judgment - [COURIER]
+ $ [18:18:08] [INFO] Gate A-NULL now recieving: Dakota - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Anarchy - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Corsair - [MISSILE_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Devastator - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Trinity - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Halo - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Defiant - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Despot - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Trafalgar - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Exterminator - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Prometheus - [BATTLECRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Confidence - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Panama - [COURIER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Lucky - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Bayonet - [EXPLORER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Detection - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Phobetor - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Eternal - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Scimitar - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Watcher - [MISSILE_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Templar - [EXPLORER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Serenity - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Troy - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Normandy - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Determination - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Viper - [LIGHT_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Antioch - [DREADNOUGHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Athens - [HEAVY_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Warlock - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Striker - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Dragontooth - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Harpy - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Ark Royal - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Churchill - [EXPLORER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Juggernaut - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Trident - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Sunder - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Explorer - [LIGHT_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Goliath - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Cromwell - [MISSILE_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Arcadia - [SCIENCE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Hunter - [MISSILE_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Rhinoceros - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Renault - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Repulse - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Apollo - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Washington - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Reliant - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Leviathan - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Remus - [EXPLORER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Sparrow - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Beholder - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Herminia - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Arcadian - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Saber - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Proximo - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Galatea - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Scorpio - [LIGHT_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Ripper - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Messenger - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Aquitaine - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Messenger - [COURIER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Kraken - [EXPLORER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Infineon - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Centurion - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Wyvern - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Assassin - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Brotherhood - [COURIER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Ulysses - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Vespira - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Basilisk - [CARGO_FRIGATE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Vulture - [MISSILE_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Harmony - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Cyclops - [HEAVY_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Shooting Star - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Hammer - [CARGO_FRIGATE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Termite - [LIGHT_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Argo - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Oregon - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Night - [COURIER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Warrior - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Javelin - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Kraken - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Traveler - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Agememnon - [SCIENCE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Valhala - [SCOUT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Escorial - [COURIER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Promise - [FIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Scavenger - [YACHT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Elba - [CORVETTE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Fortitude - [PATROL]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Fate - [TRANSPORT]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Baldrin - [MISSILE_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Tortoise - [EXPLORER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Wildcat - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Devine Intervention - [COURIER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Neurotoxin - [HEAVY_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Final Frontier - [SHUTTLE]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Pursuer - [FREIGHTER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: The Liberator - [HEAVY_CRUISER]
+ $ [18:18:13] [INFO] Gate A-NULL now recieving: Interceptor - [HEAVY_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Inquisitor - [YACHT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Fafnir - [CARGO_FRIGATE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Invictus - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: The Albatross - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Crocodile - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Executor - [HEAVY_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Helios - [DESTROYER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Cain - [YACHT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Huntress - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Bishop - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Vampire - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Gauntlet - [HOSPITAL]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Carnage - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Innuendo - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Desire - [HEAVY_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Conqueror - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Clap - [CORVETTE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Midway - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Pheonix - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Ohio - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Diplomat - [MISSILE_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Lifebringer - [ASSUALT_FRIGATE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Sonne - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Visitor - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Harlequin - [DESTROYER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Thunderstorm - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Barbara - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Irmanda - [HEAVY_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Icarus - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Rhodes - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Guard - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Thunderbird - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Rebellion - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Intelligence - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Immortal - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Marduk - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: The Jellyfish - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Karnack - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Tennessee - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Thanatos - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Malevolent - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Thor - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Zenith - [PATROL]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Angel - [CORVETTE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Karma - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Thebes - [HOSPITAL]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Tourist - [DESTROYER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Alto - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: The Rhinoceros - [LIGHT_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Close Encounter - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Experience - [DREADNOUGHT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Cataphract - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Vanguard - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Falcon - [CORVETTE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Crack - [BATTLECRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Globetrotter - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Comet - [YACHT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Patience - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Vision - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Dart - [YACHT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Claymore - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Royal - [PATROL]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Intrepid - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Pyrrhus - [SCIENCE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Badger - [CORVETTE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Dauntless - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Antagonist - [CARGO_FRIGATE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: The Vagabond - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Nightengale - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Armageddon - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Exarch - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Destiny - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Valor - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Scythe - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Flavia - [DESTROYER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Harlegand - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Elena - [CORVETTE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Gladius - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Philadelphia - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Carthage - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Gibraltar - [FREIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Ninja - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Victory - [ASSUALT_FRIGATE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Spitfire - [EXPLORER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Leviathan - [SCOUT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Buccaneer - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Saragossa - [LIGHT_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Vera - [YACHT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Raven - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Alexandria - [FIGHTER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Loki - [HEAVY_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Stalwart - [HEAVY_CRUISER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Piranha - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: The Gladiator - [DESTROYER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Teresa - [COURIER]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Cordoba - [ASSUALT_FRIGATE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Oblivion - [TRANSPORT]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Stormspike - [CORVETTE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Pennsylvania - [SHUTTLE]
+ $ [18:18:17] [INFO] Gate A-NULL now recieving: Muriela - [CARGO_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Blue Whale - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Kennedy - [COURIER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Babylon - [SCIENCE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: The Tortoise - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Gremlin - [FIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Raving - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Katherina - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Wellington - [ASSUALT_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Perilous - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Oberon - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Marchana - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Observer - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Damascus - [MISSILE_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Cydonia - [ASSUALT_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Emissary - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Vigilant - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Imperial - [MISSILE_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Development - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Paladin - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Nineveh - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Liberty - [SCIENCE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Tyrant - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Freedom - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Plaiedes - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Avalon - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Leo - [FIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Pandora - [TRANSPORT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Horizon - [MISSILE_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Wish Upon a Star - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Geisha - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Coyote - [ASSUALT_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Siren - [BATTLECRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Remorseless - [ASSUALT_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Patriot - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Trailblazer - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Silent Watcher - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Deimos - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Ace of Spades - [MISSILE_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Montgomery - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Ashaton - [BATTLECRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Merkava - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Battilion - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Phoenix - [CARGO_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Rascal - [ASSUALT_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Romulus - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Achilles - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Siberia - [FIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Alexander - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Enterprise - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Insurgent - [FIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Ravana - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Commissioner - [SHUTTLE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Paradise - [FIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Cossack - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Pilgrim - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Big Momma - [ASSUALT_FRIGATE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: New Beginning - [LANDING_SHIP]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Annihilator - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Crash - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Blade - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: The Diplomat - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Berserk - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Thunderbolt - [TRANSPORT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Frontier - [TRANSPORT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Eagle - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Infinitum - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: The Raven - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Deonida - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Ghunne - [TRANSPORT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Rebellious - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Kyozist - [SHUTTLE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Venom - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Lightning - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Pegasus - [DESTROYER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Analyser - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Ingenuity - [SHUTTLE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Titania - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Albatross - [SHUTTLE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Anna - [COURIER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Millenium - [EXPLORER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Apocalypse - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Burninator - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Lullaby - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Victoria - [SCOUT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Shade - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Cyclone - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Exploration - [SCIENCE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Samurai - [FIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Little Rascal - [HEAVY_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Big Daddy - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: New Hope - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Phalanx - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Luisa - [CORVETTE]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Edinburg - [YACHT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Legacy - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Pontiac - [FREIGHTER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Paramount - [PATROL]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Nexus - [LIGHT_CRUISER]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Navigator - [TRANSPORT]
+ $ [18:18:20] [INFO] Gate A-NULL now recieving: Utopia - [COURIER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Serpent - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Stalker - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Buzzard - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Stargazer - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Sara - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Nightfall - [YACHT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Praetor - [DESTROYER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Endeavor - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Atlas - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Malta - [BATTLECRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Rhapsody - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Retribution - [TRANSPORT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Watcher - [HEAVY_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Valiant - [LIGHT_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Detector - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Ambition - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Tomahawk - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Thylacine - [SHUTTLE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Caelestis - [YACHT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Event Horizon - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Civilization - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Griffin - [SHUTTLE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Sparta - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Titan - [BATTLESHIP]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Xerxes - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Chimera - [SHUTTLE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Blossom - [TRANSPORT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Gallimimus - [TRANSPORT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Executioner - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Invincible - [HEAVY_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Hammerhead - [TRANSPORT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Inquisitor - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Knossos - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Crusher - [SHUTTLE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Niagara - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Condor - [MISSILE_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Amanda - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Conscience - [BATTLESHIP]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Arizona - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Javelin - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Fortune - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Bandit - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Colossus - [HEAVY_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Empress - [SCIENCE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Last Hope - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Unstoppable - [CARRIER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Mercenary - [COURIER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Spectrum - [ASSUALT_FRIGATE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Typhoon - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Elizabeth - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Nebuchadnezzar - [SHUTTLE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Francesca - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Carbonaria - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Torment - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Galactica - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Matador - [LIGHT_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Nuria - [HEAVY_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Lupus - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Kipper - [LIGHT_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Memory - [YACHT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Colossus - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: The Falcon - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Beluga - [FREIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Behemoth - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Independence - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Sandra - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Omen - [COURIER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Minotuar - [MISSILE_CRUISER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Actium - [SCOUT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Andromeda - [CORVETTE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Eternity - [YACHT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Helldiver - [YACHT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Myrmidon - [FIGHTER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Guardian - [TRANSPORT]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Sagittarius - [EXPLORER]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Intruder - [PATROL]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Fade - [SHUTTLE]
+ $ [18:18:23] [INFO] Gate A-NULL now recieving: Vindicator - [FREIGHTER]
  $ 

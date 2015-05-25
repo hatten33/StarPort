@@ -1,13 +1,17 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine.coordinator;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.aerenserve.starport.architecture.Gate;
-import net.aerenserve.starport.architecture.Gate.State;
-import net.aerenserve.starport.architecture.Terminal;
+import net.aerenserve.starport.engine.Itinerary;
 import net.aerenserve.starport.engine.StarPortSimulator;
+import net.aerenserve.starport.engine.architecture.Gate;
+import net.aerenserve.starport.engine.architecture.Terminal;
+import net.aerenserve.starport.engine.architecture.Gate.State;
+import net.aerenserve.starport.engine.flights.Classification;
+import net.aerenserve.starport.engine.flights.Flight;
+import net.aerenserve.starport.engine.flights.FlightData;
 import net.aerenserve.starport.event.CancellableEvent;
 import net.aerenserve.starport.event.flight.ArrivalDelayEvent;
 import net.aerenserve.starport.event.flight.GateChangeEvent;
@@ -33,13 +37,17 @@ public class ArrivalCoordinator implements Coordinator {
 	
 	@Override
 	public Flight addFlight(FlightData data) {
+		Gate gate;
 		if(this.terminal.hasOpenGate()) {
-			return addFlight(data, this.terminal.getGate(Gate.State.OPEN), null);
+			gate = this.terminal.getGate(Gate.State.OPEN);
 		} else {
-			Gate nullGate = new Gate(-1, this.terminal);
-			this.terminal.addGate(nullGate);
-			return addFlight(data, nullGate, null);
+			gate = new Gate(-1, this.terminal);
+			this.terminal.addGate(gate);
+
 		}
+		Flight flight = addFlight(data, gate, null);
+		StarPortSimulator.getLogger().info("Gate " + gate.getIdentifier() + " now recieving: " + data.name + " - [" + data.classification + "]");
+		return flight;
 	}
 
 	@Override
@@ -67,7 +75,6 @@ public class ArrivalCoordinator implements Coordinator {
 		}
 		for(Gate g : gates.keySet()) {
 			Classification classification = gates.get(g).getData().classification;
-			//StarPortSimulator.getLogger().info("Gate " + g.getIdentifier() + " now recieving: " + classification);
 			count.put(classification, count.get(classification) + 1);
 		}
 		for(Classification c : count.keySet()) {

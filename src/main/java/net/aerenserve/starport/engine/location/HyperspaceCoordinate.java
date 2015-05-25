@@ -1,4 +1,4 @@
-package net.aerenserve.starport.coordinate;
+package net.aerenserve.starport.engine.location;
 
 
 public class HyperspaceCoordinate extends Coordinate {

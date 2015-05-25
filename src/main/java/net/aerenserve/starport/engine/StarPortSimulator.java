@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 import net.aerenserve.starport.console.ConsoleThread;
 import net.aerenserve.starport.console.StarportLogger;
-import net.aerenserve.starport.engine.factory.FlightFactory;
+import net.aerenserve.starport.engine.factory.FlightDataFactory;
 import net.aerenserve.starport.engine.factory.GameFactory;
 import net.aerenserve.starport.engine.factory.StarportFactory;
 import net.aerenserve.starport.event.EventCoordinator;
@@ -20,7 +20,7 @@ public class StarPortSimulator {
 
 	private final GameFactory gameFactory;
 	private final StarportFactory starportFactory;
-	private final FlightFactory flightFactory;
+	private final FlightDataFactory flightFactory;
 	
 	private transient Game game;
 
@@ -32,7 +32,7 @@ public class StarPortSimulator {
 		this.eventCoordinator = new EventCoordinator();
 		this.gameFactory = new GameFactory();
 		this.starportFactory = new StarportFactory();
-		this.flightFactory = new FlightFactory();
+		this.flightFactory = new FlightDataFactory();
 		
 		new DebugListener();
 	}
@@ -41,8 +41,9 @@ public class StarPortSimulator {
 		new Thread(new ConsoleThread()).start();
 	}
 	
-	public void newGame() {
+	public Game newGame() {
 		this.game = (Game) this.gameFactory.create();
+		return this.game;
 	}
 	
 	public void end() {
@@ -66,7 +67,7 @@ public class StarPortSimulator {
 		return starportFactory;
 	}
 
-	public FlightFactory getFlightFactory() {
+	public FlightDataFactory getFlightFactory() {
 		return flightFactory;
 	}
 

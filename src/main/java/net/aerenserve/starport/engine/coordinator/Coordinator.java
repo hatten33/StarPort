@@ -1,7 +1,10 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine.coordinator;
 
-import net.aerenserve.starport.architecture.Gate;
-import net.aerenserve.starport.architecture.Terminal;
+import net.aerenserve.starport.engine.Itinerary;
+import net.aerenserve.starport.engine.architecture.Gate;
+import net.aerenserve.starport.engine.architecture.Terminal;
+import net.aerenserve.starport.engine.flights.Flight;
+import net.aerenserve.starport.engine.flights.FlightData;
 
 public interface Coordinator {
 

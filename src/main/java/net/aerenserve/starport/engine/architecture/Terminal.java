@@ -1,11 +1,11 @@
-package net.aerenserve.starport.architecture;
+package net.aerenserve.starport.engine.architecture;
 
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.aerenserve.starport.architecture.Gate.State;
+import net.aerenserve.starport.engine.architecture.Gate.State;
 
 public class Terminal {
 

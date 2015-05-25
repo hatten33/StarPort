@@ -1,6 +1,8 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine;
 
-import net.aerenserve.starport.architecture.Architecture;
+import net.aerenserve.starport.engine.architecture.Architecture;
+import net.aerenserve.starport.engine.coordinator.ArrivalCoordinator;
+import net.aerenserve.starport.engine.coordinator.DepartureCoordinator;
 
 public class SpacePort implements StarPort {
 

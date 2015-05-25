@@ -11,8 +11,15 @@ public enum Command {
 	BEGIN(new BeginGameAction()),
 	
 	ARRIVALS(new ArrivalsAction()),
-
+	
+	ENABLE(new EnablePluginAction()),
+	
+	LOAD(new LoadPluginAction()),
+	
 	QUIT(new QuitAction());
+
+	
+	
 
 	public interface Listener {
 		public void exception(Exception e);

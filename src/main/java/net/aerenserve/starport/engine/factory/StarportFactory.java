@@ -1,12 +1,12 @@
 package net.aerenserve.starport.engine.factory;
 
-import net.aerenserve.starport.ArrivalCoordinator;
-import net.aerenserve.starport.DepartureCoordinator;
-import net.aerenserve.starport.SpacePort;
-import net.aerenserve.starport.StarPort;
-import net.aerenserve.starport.architecture.Architecture;
-import net.aerenserve.starport.architecture.Terminal;
+import net.aerenserve.starport.engine.SpacePort;
+import net.aerenserve.starport.engine.StarPort;
 import net.aerenserve.starport.engine.StarPortSimulator;
+import net.aerenserve.starport.engine.architecture.Architecture;
+import net.aerenserve.starport.engine.architecture.Terminal;
+import net.aerenserve.starport.engine.coordinator.ArrivalCoordinator;
+import net.aerenserve.starport.engine.coordinator.DepartureCoordinator;
 import net.aerenserve.starport.event.MessageEvent;
 
 public class StarportFactory implements Factory {

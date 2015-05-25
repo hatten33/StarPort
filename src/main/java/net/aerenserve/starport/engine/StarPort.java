@@ -1,6 +1,7 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine;
 
-import net.aerenserve.starport.architecture.Architecture;
+import net.aerenserve.starport.engine.architecture.Architecture;
+import net.aerenserve.starport.engine.coordinator.Coordinator;
 import net.aerenserve.starport.engine.factory.Creatable;
 
 public interface StarPort extends Creatable {

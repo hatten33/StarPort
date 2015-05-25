@@ -1,7 +1,7 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine.location;
 
-import net.aerenserve.starport.coordinate.Coordinate;
-import net.aerenserve.starport.coordinate.HyperspaceCoordinate;
+import net.aerenserve.starport.engine.names.PlanetNames;
+
 
 public class Destination {
 	
@@ -24,6 +24,11 @@ public class Destination {
 		this.name = planet.name;
 		this.coordinate = planet.coordinate;
 	}
+	
+	public Destination(String name, Coordinate coordinate) {
+		this.name = name;
+		this.coordinate = coordinate;
+	}
 
 	public String getName() {
 		return name;
@@ -31,6 +36,10 @@ public class Destination {
 
 	public Coordinate getCoordinate() {
 		return coordinate;
+	}
+	
+	public static Destination getRandom() {
+		return new Destination(PlanetNames.gen(), new HyperspaceCoordinate(0,0,0));
 	}
 
 }

@@ -35,7 +35,7 @@ public class EventCoordinator {
 							} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
 								e.printStackTrace();
 							}
-						} else System.out.println("PARAMATER[0] NOT EQUAL TO EVENT CLASS!" + m.getParameterTypes()[0] + " != " + event.getClass());
+						}
 					}
 				}
 			}

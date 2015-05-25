@@ -1,4 +1,4 @@
-package net.aerenserve.starport.architecture;
+package net.aerenserve.starport.engine.architecture;
 
 import java.util.ArrayList;
 import java.util.List;

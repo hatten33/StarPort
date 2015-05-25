@@ -1,6 +1,7 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine.flights;
 
-import net.aerenserve.starport.architecture.Gate;
+import net.aerenserve.starport.engine.Itinerary;
+import net.aerenserve.starport.engine.architecture.Gate;
 import net.aerenserve.starport.engine.factory.Creatable;
 
 public class Flight implements Creatable {

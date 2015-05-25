@@ -1,4 +1,4 @@
-package net.aerenserve.starport;
+package net.aerenserve.starport.engine.flights;
 
 public enum Classification {
 	/* Personal */

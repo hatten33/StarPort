@@ -4,17 +4,18 @@ import java.util.NavigableMap;
 import java.util.Random;
 import java.util.TreeMap;
 
-import net.aerenserve.starport.Classification;
-import net.aerenserve.starport.Destination;
-import net.aerenserve.starport.FlightData;
 import net.aerenserve.starport.engine.StarPortSimulator;
+import net.aerenserve.starport.engine.flights.Classification;
+import net.aerenserve.starport.engine.flights.FlightData;
+import net.aerenserve.starport.engine.location.Destination;
+import net.aerenserve.starport.engine.names.ShipNames;
 import net.aerenserve.starport.event.MessageEvent;
 
-public class FlightFactory implements Factory {
+public class FlightDataFactory implements Factory {
 	
 	private RandomCollection<Classification> classifications;
 	
-	public FlightFactory() {
+	public FlightDataFactory() {
 		this.classifications = new RandomCollection<Classification>();
 		for(Classification c : Classification.values()) {
 			this.classifications.add(c.weight, c);
@@ -23,7 +24,7 @@ public class FlightFactory implements Factory {
 
 	@Override
 	public FlightData create() {
-		FlightData data = new FlightData(getRandomClassification(), 10, 3, new Destination(Destination.Planet.CORUSCANT));
+		FlightData data = new FlightData(ShipNames.gen(), getRandomClassification(), 10, 3, Destination.getRandom());
 		StarPortSimulator.getInstance().getEventCoordinator().fireEvent(new MessageEvent("FlightFactory created a new FlightData. \n" +
 				"Classification: " + data.classification + "\n" +
 				"Passengers: " + data.passengers + "\n" +

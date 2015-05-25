@@ -1,6 +1,6 @@
 package net.aerenserve.starport.event.flight;
 
-import net.aerenserve.starport.Flight;
+import net.aerenserve.starport.engine.flights.Flight;
 
 import org.joda.time.DateTime;
 
