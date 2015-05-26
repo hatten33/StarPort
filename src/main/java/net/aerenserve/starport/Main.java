@@ -13,6 +13,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Starting StarPort Simulator. . .");
-		new StarPortSimulator().start();
+		boolean debug = false;
+		for(int i = 0; i < args.length; i++) {
+			if(args[i].equalsIgnoreCase("-debug"))
+				debug = true;
+		}
+		if(debug) System.out.println("debug mode!");
+		new StarPortSimulator(debug).start();
 	}
 }

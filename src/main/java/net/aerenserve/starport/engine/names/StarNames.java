@@ -32,6 +32,6 @@ public class StarNames {
 			int rnd6 = new Random().nextInt(nm5.length);
 			name = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm5[rnd6];
 		}
-		return name;
+		return name.length() == 0 ? name : name.substring(0, 1).toUpperCase() + name.substring(1);
 	}
 }

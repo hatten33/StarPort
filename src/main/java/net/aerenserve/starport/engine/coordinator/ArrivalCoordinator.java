@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.aerenserve.starport.engine.Itinerary;
 import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.engine.architecture.Gate;
 import net.aerenserve.starport.engine.architecture.Terminal;

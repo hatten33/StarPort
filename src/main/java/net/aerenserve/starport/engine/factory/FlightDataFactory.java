@@ -25,7 +25,8 @@ public class FlightDataFactory implements Factory {
 	@Override
 	public FlightData create() {
 		FlightData data = new FlightData(ShipNames.gen(), getRandomClassification(), 10, 3, Destination.getRandom());
-		StarPortSimulator.getInstance().getEventCoordinator().fireEvent(new MessageEvent("FlightFactory created a new FlightData. \n" +
+		StarPortSimulator.getInstance().getEventCoordinator().fireEvent(new MessageEvent("FlightDataFactory created a new FlightData. \n" +
+				"Name: " + data.name + "\n" +
 				"Classification: " + data.classification + "\n" +
 				"Passengers: " + data.passengers + "\n" +
 				"Cargo: " + data.cargo + "\n" +

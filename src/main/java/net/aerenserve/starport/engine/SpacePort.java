@@ -47,5 +47,10 @@ public class SpacePort implements StarPort {
 	public Architecture getArchitecture() {
 		return this.architecture;
 	}
+	
+	@Override
+	public Type getType() {
+		return Type.SPACE;
+	}
 
 }

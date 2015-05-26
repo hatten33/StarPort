@@ -44,8 +44,7 @@ public class UniversePlugin extends Plugin implements Listener {
 	}
 	
 	@EventHandler
-	public void onFlightDataCreateEvent(FlightDataCreateEvent event) {
-		StarPortSimulator.getLogger().fine("Universe caught an event!");		
+	public void onFlightDataCreateEvent(FlightDataCreateEvent event) {	
 		if(!backend.nameInUse(event.getFlightData().name)) {
 			backend.addName(event.getFlightData().name);
 		} else {

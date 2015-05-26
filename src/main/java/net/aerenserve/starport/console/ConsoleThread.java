@@ -5,13 +5,14 @@ import java.util.Date;
 import java.util.Scanner;
 
 import net.aerenserve.starport.console.commands.Command;
+import net.aerenserve.starport.engine.StarPortSimulator;
 
 public class ConsoleThread implements Runnable {
 
 	private static final String NO_CONSOLE = "Error: Console unavailable";
 	private static final String UNKNOWN_COMMAND = "Unknown command [%1$s]%n";
 	private static final String COMMAND_ERROR = "Command error [%1$s]: [%2$s]%n";
-	
+
 	private static final String PROMPT = "\r $ ";
 
 	public void run() {
@@ -34,21 +35,24 @@ public class ConsoleThread implements Runnable {
 
 			if (scanner.hasNext()) {
 				final String commandName = scanner.next().toUpperCase();
-
+				String param = scanner.hasNext() ? scanner.next() : "";
 				try {
-					final Command cmd = Enum.valueOf(Command.class, commandName);
-					String param = scanner.hasNext() ? scanner.next() : null;
+					final Command cmd = Command.getCmd(commandName);
 					cmd.exec(console, new String[] { param },
 							new Command.Listener() {
-								@Override
-								public void exception(Exception e) {
-									console.printf(COMMAND_ERROR, cmd,
-											e.getMessage());
-									e.printStackTrace();
-								}
-							});
+						@Override
+						public void exception(Exception e) {
+							console.printf(COMMAND_ERROR, cmd,
+									e.getMessage());
+							e.printStackTrace();
+						}
+					});
 				} catch (IllegalArgumentException e) {
-					console.printf(UNKNOWN_COMMAND, commandName);
+					if(StarPortSimulator.getInstance().getCurrentGame() != null) {
+						if(!StarPortSimulator.getInstance().getCurrentGame().getPluginManager().passCommand(commandName, new String[] { param })) {
+							console.printf(UNKNOWN_COMMAND, commandName);
+						}
+					} else console.printf(UNKNOWN_COMMAND, commandName);
 				}
 			}
 

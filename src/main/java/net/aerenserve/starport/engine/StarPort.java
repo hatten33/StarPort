@@ -9,6 +9,8 @@ public interface StarPort extends Creatable {
 	public enum Type {
 		SPACE,
 	}
+	
+	public Type getType();
 
 	public String getName();
 	public void setName(String newName);

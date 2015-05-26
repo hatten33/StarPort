@@ -38,6 +38,10 @@ public class Terminal {
 		return this.name;
 	}
 	
+	public Size getSize() {
+		return this.size;
+	}
+	
 	/**
 	 * Necessary to 'install' gates to your terminal.
 	 * @param gate

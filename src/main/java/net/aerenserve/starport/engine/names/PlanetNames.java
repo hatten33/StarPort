@@ -43,6 +43,6 @@ public class PlanetNames {
 			int rnd2 = new Random().nextInt(nm6.length);
 			name = nm3[rnd] + nm6[rnd2];
 		}
-		return name;
+		return name.length() == 0 ? name : name.substring(0, 1).toUpperCase() + name.substring(1);
 	}
 }

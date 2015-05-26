@@ -14,15 +14,15 @@ public class Game implements Creatable {
 	private StarPort starport;
 	private FlightAgent flightAgent;
 
-	public Game() {
-		this(StarPortSimulator.getInstance().getStarportFactory().create());
+	public Game(boolean debug) {
+		this(StarPortSimulator.getInstance().getStarportFactory().create(), debug);
 	}
 	
-	public Game(StarPort.Type portType, Architecture.Type archType, Terminal.Size size) {
-		this(StarPortSimulator.getInstance().getStarportFactory().create(portType, archType, size));
+	public Game(StarPort.Type portType, Architecture.Type archType, Terminal.Size size, boolean debug) {
+		this(StarPortSimulator.getInstance().getStarportFactory().create(portType, archType, size), debug);
 	}
 	
-	public Game(StarPort starport) {
+	public Game(StarPort starport, boolean debug) {
 		this.starport = starport;
 		if(starport == null) StarPortSimulator.getLogger().warning("No Starport found.");
 		
@@ -32,7 +32,7 @@ public class Game implements Creatable {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		load();
+		load(debug);
 	}
 
 	public StarPort getStarPort() {
@@ -43,8 +43,9 @@ public class Game implements Creatable {
 		this.starport = StarPortSimulator.getInstance().getStarportFactory().create(portType, archType, size);
 	}
 	
-	private void load() { 
-		this.pluginManager = new PluginManager();
+	private void load(boolean debug) { 
+		this.pluginManager = new PluginManager(debug);
+		this.pluginManager.loadDefaultPlugins();
 	}
 	
 	public void begin() {

@@ -1,6 +1,5 @@
 package net.aerenserve.starport.engine.coordinator;
 
-import net.aerenserve.starport.engine.Itinerary;
 import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.engine.architecture.Gate;
 import net.aerenserve.starport.engine.architecture.Terminal;

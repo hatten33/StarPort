@@ -1,4 +1,4 @@
-package net.aerenserve.starport.engine;
+package net.aerenserve.starport.engine.coordinator;
 
 import org.joda.time.DateTime;
 

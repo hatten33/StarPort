@@ -9,11 +9,12 @@ import net.aerenserve.starport.engine.factory.FlightDataFactory;
 import net.aerenserve.starport.engine.factory.GameFactory;
 import net.aerenserve.starport.engine.factory.StarportFactory;
 import net.aerenserve.starport.event.EventCoordinator;
-import net.aerenserve.starport.event.listener.DebugListener;
 
 public class StarPortSimulator {
 	
 	public static Logger logger;
+	
+	public static boolean DEBUG = false;
 	
 	public static StarPortSimulator instance;
 	private final EventCoordinator eventCoordinator;
@@ -24,17 +25,15 @@ public class StarPortSimulator {
 	
 	private transient Game game;
 
-	public StarPortSimulator() {
+	public StarPortSimulator(boolean debug) {
 		instance = this;
-
+		DEBUG = debug;
 		logger = getLogger();
 		
 		this.eventCoordinator = new EventCoordinator();
 		this.gameFactory = new GameFactory();
 		this.starportFactory = new StarportFactory();
 		this.flightFactory = new FlightDataFactory();
-		
-		new DebugListener();
 	}
 	
 	public void start() {
