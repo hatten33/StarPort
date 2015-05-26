@@ -1,29 +1,0 @@
-[17:15:03] [INFO] Universe v1.0 by hatten33 loaded.
- $ [17:15:03] [INFO] Debugger v1.0 by hatten33 loaded.
- $ [17:15:03] [INFO] Your game is ready. Type 'begin' to start simulation.
- $ [17:15:03] [FINEST] Registering method: levelCommand as a command handler.
- $ [17:15:03] [INFO] Debugger v1.0 enabled!
- $ [17:15:06] [INFO] Creating a new Game with the following StarPort:
-Type: SPACE
-Terminals: 1
-Docks: null
-
- $ [17:15:10] [INFO] FlightDataFactory created a new FlightData. 
-Name: Ark Royal
-Classification: COURIER
-Passengers: 10
-Cargo: 3
-Destination: Chara
- $ [17:15:10] [FINE] Recieved Event: net.aerenserve.starport.event.MessageEvent
- $ [17:15:10] [FINE] Recieved Event: net.aerenserve.starport.event.FlightDataCreateEvent
- $ [17:15:10] [INFO] Gate A4 now recieving: Ark Royal - [COURIER]
- $ [17:15:10] [INFO] FlightDataFactory created a new FlightData. 
-Name: Sparrow
-Classification: FIGHTER
-Passengers: 10
-Cargo: 3
-Destination: Gasnao
- $ [17:15:10] [FINE] Recieved Event: net.aerenserve.starport.event.MessageEvent
- $ [17:15:10] [FINE] Recieved Event: net.aerenserve.starport.event.FlightDataCreateEvent
- $ [17:15:10] [INFO] Gate A3 now recieving: Sparrow - [FIGHTER]
- $ 
