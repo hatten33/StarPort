@@ -18,7 +18,6 @@ public class Main {
 			if(args[i].equalsIgnoreCase("-debug"))
 				debug = true;
 		}
-		if(debug) System.out.println("debug mode!");
 		new StarPortSimulator(debug).start();
 	}
 }

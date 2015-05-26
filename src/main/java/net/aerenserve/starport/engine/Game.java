@@ -1,11 +1,11 @@
 package net.aerenserve.starport.engine;
 
+import net.aerenserve.starport.engine.ai.EntropyMachine;
 import net.aerenserve.starport.engine.architecture.Architecture;
 import net.aerenserve.starport.engine.architecture.Terminal;
 import net.aerenserve.starport.engine.factory.Creatable;
 import net.aerenserve.starport.engine.flights.FlightAgent;
 import net.aerenserve.starport.plugins.PluginManager;
-import net.aerenserve.starport.scheduler.Scheduler;
 
 public class Game implements Creatable {
 	
@@ -49,7 +49,7 @@ public class Game implements Creatable {
 	}
 	
 	public void begin() {
-		Scheduler.schedule(new SpawnerRunnable(), 4000);
+		new Thread(new EntropyMachine(0.2f, 10, 4)).start();
 	}
 	
 	public void createFlights(int number) {

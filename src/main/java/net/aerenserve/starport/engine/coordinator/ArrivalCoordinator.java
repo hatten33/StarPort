@@ -1,6 +1,7 @@
 package net.aerenserve.starport.engine.coordinator;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -22,6 +23,8 @@ public class ArrivalCoordinator implements Coordinator {
 	private Map<Gate, Flight> gates;
 	private Terminal terminal;
 	
+	private List<Flight> queue;
+	 
 	public ArrivalCoordinator() {
 		this.gates = new ConcurrentHashMap<Gate, Flight>();
 	}

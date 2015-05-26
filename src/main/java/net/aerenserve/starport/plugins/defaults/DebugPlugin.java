@@ -53,7 +53,7 @@ public class DebugPlugin extends Plugin implements Listener {
 	
 	@EventHandler
 	public void onEvent(Event event) {
-		StarPortSimulator.getLogger().fine("Recieved Event: " + event.getClass().getName());
+		StarPortSimulator.getLogger().finest("Recieved Event: " + event.getClass().getName());
 	}
 	
 	@CommandHandler(name="level", aliases={"lvl", "log"})
