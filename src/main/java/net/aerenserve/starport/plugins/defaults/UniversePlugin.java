@@ -13,7 +13,7 @@ import net.aerenserve.starport.plugins.PluginData;
 		name = "Universe",
 		author = "hatten33",
 		desc = "Builds a 'universe' inside a game by making sure all objects/names are unique.", 
-		main = "net.aerenserve.starport.plugins.defaults.Universe",
+		main = "net.aerenserve.starport.plugins.defaults.UniversePlugin",
 		currentVersion = 1.0
 		)
 public class UniversePlugin extends Plugin implements Listener {

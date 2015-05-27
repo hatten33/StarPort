@@ -5,11 +5,14 @@ import net.aerenserve.starport.engine.architecture.Architecture;
 import net.aerenserve.starport.engine.architecture.Terminal;
 import net.aerenserve.starport.engine.factory.Creatable;
 import net.aerenserve.starport.engine.flights.FlightAgent;
+import net.aerenserve.starport.engine.location.Galaxy;
 import net.aerenserve.starport.plugins.PluginManager;
 
 public class Game implements Creatable {
 	
 	private PluginManager pluginManager;
+	
+	private final Galaxy galaxy;
 	
 	private StarPort starport;
 	private FlightAgent flightAgent;
@@ -23,7 +26,10 @@ public class Game implements Creatable {
 	}
 	
 	public Game(StarPort starport, boolean debug) {
+		this.galaxy = new Galaxy(7);
+		
 		this.starport = starport;
+		
 		if(starport == null) StarPortSimulator.getLogger().warning("No Starport found.");
 		
 		this.flightAgent = new FlightAgent();

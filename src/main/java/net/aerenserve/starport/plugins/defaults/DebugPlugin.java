@@ -17,7 +17,7 @@ import net.aerenserve.starport.plugins.PluginData;
 		name = "Debugger",
 		author = "hatten33",
 		desc = "Increases log sensitivity and listens for all MessageEvents.", 
-		main = "net.aerenserve.starport.plugins.defaults.Universe",
+		main = "net.aerenserve.starport.plugins.defaults.DebugPlugin",
 		currentVersion = 1.0
 		)
 public class DebugPlugin extends Plugin implements Listener {

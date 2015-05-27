@@ -9,7 +9,8 @@ public class GameFactory implements Factory {
 	@Override
 	public Creatable create() {
 		StarPortSimulator.getInstance().getEventCoordinator().fireEvent(new MessageEvent("GameFactory created a new Game."));
-		return new Game(StarPortSimulator.getInstance().DEBUG);
+		StarPortSimulator.getInstance();
+		return new Game(StarPortSimulator.DEBUG);
 	}
 
 }
