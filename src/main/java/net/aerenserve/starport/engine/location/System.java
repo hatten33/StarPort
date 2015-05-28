@@ -12,15 +12,17 @@ import net.aerenserve.starport.engine.names.StarNames;
 public class System {
 	
 	private final String name;
+	private final HyperspaceCoordinate coordinate;
 	
 	private Map<String, Destination> places;
 	
-	public System(String name) {
-		this(name, 12 + (216 - 12) * new Random().nextDouble());
+	public System(String name, HyperspaceCoordinate coordinate) {
+		this(name, 12 + (216 - 12) * new Random().nextDouble(), coordinate);
 	}
 	
-	public System(String name, double radius) {
+	public System(String name, double radius, HyperspaceCoordinate coordinate) {
 		this.name = name;
+		this.coordinate = coordinate;
 		this.places = genPlaces(radius);
 	}
 	
@@ -37,7 +39,11 @@ public class System {
 		Random r = new Random();
 		double rangeMin = -radius;
 		double rangeMax = radius;
-	
+		
+		//Generate the star
+		Destination star = new Destination(this.name, new LocationCoordinate(0,0,0));
+		places.put(this.name, star);
+		
 		for(double i = 0; i < maxPlaces; i++) {
 			double rX = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			double rY = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
@@ -50,7 +56,7 @@ public class System {
 			Destination place = new Destination(name, new LocationCoordinate(rX, rY, rZ));
 			places.put(name, place);
 		}
-		if(places.size() <= 0) {
+		if(places.size() <= 1) {
 			double rX = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			double rY = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			double rZ = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
