@@ -6,9 +6,9 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.aerenserve.starport.engine.SpawnerRunnable;
 import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.plugins.defaults.DebugPlugin;
+import net.aerenserve.starport.plugins.defaults.MapPlugin;
 import net.aerenserve.starport.plugins.defaults.UniversePlugin;
 import net.aerenserve.starport.scheduler.Scheduler;
 
@@ -29,12 +29,7 @@ public class PluginManager {
 	}
 
 	public void loadDefaultPlugins() {
-
-		/* Universe */ 
-		UniversePlugin universe = new UniversePlugin();
-		if(registerPlugin(universe))
-			universe.onLoad();
-
+		
 		/* Debugger */
 		final DebugPlugin debugger = new DebugPlugin();
 		if(registerPlugin(debugger))
@@ -46,6 +41,18 @@ public class PluginManager {
 					debugger.onEnable();
 				}
 			}, 250);
+		
+		/* Map */
+		final MapPlugin mapPlugin = new MapPlugin();
+		if(registerPlugin(mapPlugin))
+			mapPlugin.onLoad();
+
+		/* Universe */ 
+		UniversePlugin universe = new UniversePlugin();
+		if(registerPlugin(universe))
+			universe.onLoad();
+
+
 	}
 
 	public boolean registerPlugin(Plugin plugin) {

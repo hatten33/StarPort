@@ -1,6 +1,6 @@
 package net.aerenserve.starport.engine;
 
-import net.aerenserve.starport.engine.ai.EntropyMachine;
+import net.aerenserve.starport.engine.ai.TheAI;
 import net.aerenserve.starport.engine.architecture.Architecture;
 import net.aerenserve.starport.engine.architecture.Terminal;
 import net.aerenserve.starport.engine.factory.Creatable;
@@ -26,7 +26,7 @@ public class Game implements Creatable {
 	}
 	
 	public Game(StarPort starport, boolean debug) {
-		this.galaxy = new Galaxy(7);
+		this.galaxy = new Galaxy(30);
 		
 		this.starport = starport;
 		
@@ -45,6 +45,10 @@ public class Game implements Creatable {
 		return this.starport;
 	}
 	
+	public Galaxy getGalaxy() {
+		return this.galaxy;
+	}
+	
 	public void setStarPort(StarPort.Type portType, Architecture.Type archType, Terminal.Size size) {
 		this.starport = StarPortSimulator.getInstance().getStarportFactory().create(portType, archType, size);
 	}
@@ -55,7 +59,7 @@ public class Game implements Creatable {
 	}
 	
 	public void begin() {
-		new Thread(new EntropyMachine(0.2f, 10, 4)).start();
+		new TheAI(this);
 	}
 	
 	public void createFlights(int number) {

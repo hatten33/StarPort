@@ -1,15 +1,17 @@
 package net.aerenserve.starport.engine.location;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.engine.names.PlanetNames;
 import net.aerenserve.starport.engine.names.StarNames;
 
-public class System {
+public class System implements Mappable {
 	
 	private final String name;
 	private final HyperspaceCoordinate coordinate;
@@ -24,10 +26,24 @@ public class System {
 		this.name = name;
 		this.coordinate = coordinate;
 		this.places = genPlaces(radius);
+		StringBuilder sb = new StringBuilder();
+		sb.append("System populated with destinations:\n" +
+				"System: " + getName() + "\n" +
+				"Radius: " + Coordinate.round(radius) + "\n" +
+				"Hyperspace Coord: "  + coordinate.toString() + "\n");
+		for(Destination d : places.values()) {
+			sb.append("    " + d.toString() + "\n");
+		}
+		StarPortSimulator.getLogger().info(sb.toString());
+				
 	}
 	
 	public String getName() {
 		return this.name;
+	}
+	
+	public HyperspaceCoordinate getCoordinate() {
+		return this.coordinate;
 	}
 	
 	private Map<String, Destination> genPlaces(double radius) {
@@ -49,11 +65,18 @@ public class System {
 			double rY = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			double rZ = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			//TODO check if the coordinate is an acceptable range of other places..
+			LocationCoordinate loc = new LocationCoordinate(rX, rY, rZ);
+			while(!locationOkay(loc, places.values())) {
+				double X = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
+				double Y = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
+				double Z = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
+				loc = new LocationCoordinate(X, Y, Z);
+			}
 			String name = PlanetNames.gen();
 			while(nameRegistry.contains(name)) {
 				name = StarNames.gen();
 			}
-			Destination place = new Destination(name, new LocationCoordinate(rX, rY, rZ));
+			Destination place = new Destination(name, loc);
 			places.put(name, place);
 		}
 		if(places.size() <= 1) {
@@ -64,5 +87,23 @@ public class System {
 			places.put(name, place);
 		}
 		return places;
+	}
+	
+	private boolean locationOkay(LocationCoordinate loc, Collection<Destination> others) {
+		for(Destination d : others) {
+			if(d.getCoordinate().getDistance(loc) < 5) return false;
+		}
+		return true;
+	}
+
+	@Override
+	public double[][] getPoints() {
+		double[][] pts = new double[places.size()][3];
+		int i = 0;
+		for(Destination d : places.values()) {
+			pts[i] = d.getCoordinate().toArray();
+			i++;
+		}
+		return pts;
 	}
 }

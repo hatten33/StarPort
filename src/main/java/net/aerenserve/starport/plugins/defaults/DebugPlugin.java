@@ -12,7 +12,6 @@ import net.aerenserve.starport.plugins.CommandHandler;
 import net.aerenserve.starport.plugins.Plugin;
 import net.aerenserve.starport.plugins.PluginData;
 
-
 @PluginData (
 		name = "Debugger",
 		author = "hatten33",
@@ -43,7 +42,7 @@ public class DebugPlugin extends Plugin implements Listener {
 	@Override
 	public void onDisable() {
 		StarPortSimulator.getInstance().getEventCoordinator().removeListener(this);
-		StarPortSimulator.getLogger().info("Universe v" + getVersion() + " disabled!");		
+		StarPortSimulator.getLogger().info("Debugger v" + getVersion() + " disabled!");		
 	}
 
 	@EventHandler

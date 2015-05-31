@@ -25,4 +25,8 @@ public class Destination {
 		return new Destination(PlanetNames.gen(), new HyperspaceCoordinate(0,0,0));
 	}
 
+	@Override
+	public String toString() {
+		return String.format("%s (%s)", name, coordinate.toString());
+	}
 }
