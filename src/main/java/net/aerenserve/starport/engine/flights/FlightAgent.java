@@ -28,7 +28,9 @@ public class FlightAgent implements Agent {
 		FlightDataCreateEvent event = new FlightDataCreateEvent(data);
 		StarPortSimulator.getInstance().getEventCoordinator().fireEvent(event);
 		if(!event.isCancelled()) {
-			StarPortSimulator.getInstance().getCurrentGame().getStarPort().getArrivalCoordinator().addFlight(data);
+			StarPortSimulator.getInstance().getCurrentGame().getStarPort().getArrivalCoordinator().queue(data);
+			//uncomment for automatic queuing and gate assignment
+			//StarPortSimulator.getInstance().getCurrentGame().getStarPort().getArrivalCoordinator().addFlight(data);
 		} else {
 			spawn(); //This will create a stack overflow when used in conjunction with the universe plugin and it runs out of names.
 		}

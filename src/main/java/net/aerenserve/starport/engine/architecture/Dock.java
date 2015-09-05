@@ -21,6 +21,11 @@ public class Dock {
 			this.maxSize = maxSize;
 		}
 	}
+	
+	public final DockSize size;
 
+	public Dock(DockSize size) {
+		this.size = size;
+	}
 	
 }

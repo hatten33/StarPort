@@ -7,7 +7,6 @@ import java.util.TreeMap;
 import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.engine.flights.Classification;
 import net.aerenserve.starport.engine.flights.FlightData;
-import net.aerenserve.starport.engine.location.Destination;
 import net.aerenserve.starport.engine.names.ShipNames;
 
 public class FlightDataFactory implements Factory {
@@ -17,13 +16,13 @@ public class FlightDataFactory implements Factory {
 	public FlightDataFactory() {
 		this.classifications = new RandomCollection<Classification>();
 		for(Classification c : Classification.values()) {
-			this.classifications.add(c.weight, c);
+			this.classifications.add(c.rarity, c);
 		}
 	}
 
 	@Override
 	public FlightData create() {
-		FlightData data = new FlightData(ShipNames.gen(), getRandomClassification(), 10, 3, Destination.getRandom());
+		FlightData data = new FlightData(ShipNames.gen(), getRandomClassification(), 10, 3, StarPortSimulator.getInstance().getCurrentGame().getGalaxy().getRandomDestination());
 		StarPortSimulator.getLogger().finer("FlightDataFactory created a new FlightData. \n" +
 				"Name: " + data.name + "\n" +
 				"Classification: " + data.classification + "\n" +

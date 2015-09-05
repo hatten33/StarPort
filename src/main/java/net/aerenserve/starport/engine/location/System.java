@@ -46,6 +46,10 @@ public class System implements Mappable {
 		return this.coordinate;
 	}
 	
+	public Map<String, Destination> getDestinations() {
+		return this.places;
+	}
+	
 	private Map<String, Destination> genPlaces(double radius) {
 		List<String> nameRegistry = new ArrayList<String>();
 		Map<String, Destination> places = new HashMap<String, Destination>();
@@ -64,7 +68,6 @@ public class System implements Mappable {
 			double rX = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			double rY = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 			double rZ = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
-			//TODO check if the coordinate is an acceptable range of other places..
 			LocationCoordinate loc = new LocationCoordinate(rX, rY, rZ);
 			while(!locationOkay(loc, places.values())) {
 				double X = rangeMin + (rangeMax - rangeMin) * r.nextDouble();

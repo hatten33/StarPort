@@ -49,11 +49,11 @@ public enum Classification {
 	DREADNOUGHT(20, 0.03);
 	
 	public final int size;
-	public final double weight;
+	public final double rarity;
 	
-	private Classification(int size, double weight) {
+	private Classification(int size, double rarity) {
 		this.size = size;
-		this.weight = weight;
+		this.rarity = rarity;
 	}
 
 }

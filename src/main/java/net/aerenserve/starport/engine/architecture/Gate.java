@@ -1,5 +1,7 @@
 package net.aerenserve.starport.engine.architecture;
 
+import net.aerenserve.starport.engine.architecture.Dock.DockSize;
+
 public class Gate {
 	
 	public enum State { DOCKING, ARRIVAL, DEPARTURE, LAUNCHING, OPEN, CLOSED, REPAIR }
@@ -18,6 +20,10 @@ public class Gate {
 		this.dock = dock;
 	}
 	
+	public DockSize getDockSize() {
+		return this.dock.size;
+	}
+	 
 	public String getIdentifier() {
 		if(this.id < 0) return this.terminal.getIdentifier() + "-NULL";
 		return this.terminal.getIdentifier() + this.id;

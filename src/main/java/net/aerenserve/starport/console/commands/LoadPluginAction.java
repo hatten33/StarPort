@@ -5,7 +5,7 @@ import java.io.Console;
 import net.aerenserve.starport.engine.Game;
 import net.aerenserve.starport.engine.StarPortSimulator;
 
-public class LoadPluginAction implements Action {
+public class LoadPluginAction implements CommandAction {
 	
 	@Override
 	public void exec(Console c, String[] params) {

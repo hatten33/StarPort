@@ -4,7 +4,7 @@ import java.io.Console;
 
 import net.aerenserve.starport.engine.StarPortSimulator;
 
-public class SpawnTestAction implements Action {
+public class SpawnTestAction implements CommandAction {
 
 	@Override
 	public void exec(Console c, String[] params) throws Exception {

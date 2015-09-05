@@ -5,16 +5,15 @@ import java.util.Random;
 import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.scheduler.Scheduler;
 
-/**
- * May it make your games interesting.
- *
- */
-public class EntropyMachine extends AIThread {
+public class BoundsMachine extends AIThread {
 	
 	protected final Random rand;
 	protected EntropyThing entropy;
+	
+	private transient int lastMin;
+	private transient int lastMax;
 
-	public EntropyMachine(float chaosFactor, int interval, int intervalRandom) {
+	public BoundsMachine(float chaosFactor, int interval, int intervalRandom) {
 		super(new EntropyThing(chaosFactor, interval, intervalRandom));
 		this.rand = new Random();
 		this.entropy = (EntropyThing) this.getThing();
@@ -24,9 +23,11 @@ public class EntropyMachine extends AIThread {
 		return rand.nextFloat() <= entropy.getChaosFactor();
 	}
 	
-	public long getNextDelay() {
+	public long getNextInteger(int min, int max) {
+		this.lastMax = max;
+		this.lastMin = min;
 		if(chaos()) {
-			StarPortSimulator.getLogger().finest("EntropyMachine generated chaos as next delay.");
+			StarPortSimulator.getLogger().finest("BoundsMachine generated chaos. Ignoring bounds...");
 			return 0; //TODO let's make this more chaotic sometime
 		} else {
 			int r = rand.nextInt(entropy.getIntervalRandom());
@@ -38,6 +39,7 @@ public class EntropyMachine extends AIThread {
 
 	@Override
 	public void run() {
+		
 		reproduce();
 	}
 	
@@ -46,15 +48,9 @@ public class EntropyMachine extends AIThread {
 		Scheduler.schedule(new Runnable() {
 			@Override
 			public void run() {
-				int flights = 1;
-				if(chaos()) {
-					StarPortSimulator.getLogger().finest("EntropyMachine generated chaos as the flight number.");
-					flights = 10;
-				}
-				StarPortSimulator.getInstance().getCurrentGame().createFlights(flights);
-				reproduce();
+				
 			}
-		}, getNextDelay() * 1000);
+		}, getNextInteger(lastMin, lastMax) * 1000);
 	}
 	
 }

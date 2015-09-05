@@ -11,21 +11,20 @@ import net.aerenserve.starport.event.flight.GateChangeEvent;
 
 import org.joda.time.DateTime;
 
-public class DepartureCoordinator implements Coordinator {
+public class DepartureCoordinator implements FlightCoordinator {
 
 	@Override
-	public Flight addFlight(FlightData data, Gate gate, Itinerary itinerary) {
+	public Flight addFlight(Flight flight, Gate gate) {
 		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Flight queue(FlightData data) {
 		return null;
 	}
 	
 	@Override
-	public Flight addFlight(FlightData data) {
-		return null;
-	}
-
-	@Override
-	public void delayFlight(Flight flight, Itinerary itinerary) {
+	public void setFlightItinerary(Flight flight, Itinerary itinerary) {
 		flight.setItinerary(itinerary);
 	}
 	

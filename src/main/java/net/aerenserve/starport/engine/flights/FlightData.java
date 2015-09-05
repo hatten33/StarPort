@@ -19,4 +19,9 @@ public class FlightData implements Creatable {
 		this.cargo = cargo;
 		this.destination = destination;
 	}
+	
+	@Override
+	public String toString() {
+		return String.format("%s class vessel \"%s\" with %d passengers and %d cargo, en route to %s", classification, name, passengers, cargo, destination);
+	}
 }

@@ -25,8 +25,7 @@ public class SpaceMapper {
 		plot3d.getAxis(2).setOrigin(origin);
 
 		FrameView fw = new FrameView(plot3d);
-
-		fw.setVisible(true);
 		fw.setBackground(Color.BLACK);
+		fw.setVisible(true);
 	}
 }

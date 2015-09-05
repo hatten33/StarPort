@@ -8,7 +8,7 @@ import net.aerenserve.starport.engine.architecture.Terminal;
 import net.aerenserve.starport.engine.StarPortSimulator;
 import net.aerenserve.starport.engine.StarPort;
 
-public class NewGameAction implements Action {
+public class NewGameAction implements CommandAction {
 
 	@Override
 	public void exec(Console c, String[] params) {

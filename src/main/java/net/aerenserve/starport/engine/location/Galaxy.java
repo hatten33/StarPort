@@ -51,6 +51,14 @@ public class Galaxy implements Mappable {
 	public System getSystem(String system) {
 		return this.systems.get(system);
 	}
+	
+	public Destination getRandomDestination() {
+		Random rand = new Random();
+		int i = rand.nextInt(systems.size());
+		System sys = (System) this.systems.values().toArray()[i];
+		i = rand.nextInt(sys.getDestinations().size());
+		return (Destination) sys.getDestinations().values().toArray()[i];
+	}
 
 	private boolean locationOkay(HyperspaceCoordinate hyp, Collection<System> others) {
 		for(System s : others) {

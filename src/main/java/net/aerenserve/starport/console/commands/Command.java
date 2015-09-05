@@ -19,19 +19,18 @@ public enum Command {
 	
 	LOAD(new LoadPluginAction(), new ArrayList<String>()),
 	
-	QUIT(new QuitAction(), Arrays.asList("q","stop","exit"));
-
+	QUICKSTART(new QuickStartAction(), Arrays.asList("qs")),
 	
-
+	QUIT(new QuitAction(), Arrays.asList("q","stop","exit"));
 
 	public interface Listener {
 		public void exception(Exception e);
 	}
 
-	private Action action;
+	private CommandAction action;
 	private List<String> alias;
 
-	private Command(Action a, List<String> alias) {
+	private Command(CommandAction a, List<String> alias) {
 		this.action = a;
 		this.alias = alias;
 	}
@@ -44,12 +43,12 @@ public enum Command {
 		}
 	}
 	
-	public static Command getCmd(String commandName) {
+	public static Command getCmd(String query) {
 		for(Command cmd : values()) {
-			if(cmd.toString().equalsIgnoreCase(commandName)) {
+			if(cmd.toString().equalsIgnoreCase(query)) {
 				return cmd;
 			}
-			if(cmd.alias.contains(commandName)) {
+			else if(cmd.alias.contains(query)) {
 				return cmd;
 			}
 		}

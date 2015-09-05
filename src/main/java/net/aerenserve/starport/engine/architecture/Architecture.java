@@ -28,6 +28,16 @@ public class Architecture {
 		return this.terminals;
 	}
 	
+	public List<Gate> getAllGates() {
+		List<Gate> gates = new ArrayList<Gate>();
+		for(Terminal term : this.terminals) {
+			for(Gate g : term.getGates().keySet()) {
+				gates.add(g);
+			}
+		}
+		return gates;
+	}
+	 
 	public static Architecture getFromType(Architecture.Type type, Terminal.Size size) {
 		List<Terminal> terminals = new ArrayList<Terminal>(); 
 		for(int i = 0; i < type.terminals; i++) {
